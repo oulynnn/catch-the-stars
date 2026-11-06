@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Stars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- Overlay Layar Mulai / Game Over -->
+        <div id="ui-overlay">
+            <h1 id="ui-title">TANGKAP BINTANG</h1>
+            <p id="ui-desc">Gunakan panah Kiri/Kanan atau geser layar untuk menggerakkan keranjang.</p>
+            <button id="start-btn">Mulai Game</button>
+        </div>
+
+        <!-- Dashboard Informasi Game -->
+        <div id="stats-bar">
+            <div>Skor: <span id="score">0</span></div>
+            <div>Nyawa: <span id="lives">❤️❤️❤️</span></div>
+        </div>
+
+        <!-- Canvas Tempat Game Rendernya -->
+        <canvas id="gameCanvas"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
